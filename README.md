@@ -29,7 +29,9 @@ Of course Alura Converter itself is open source with a public repository [https:
 
 ## Installation
 
-You can clone the Alura Converter repository and then convert it to a . class and then run it on your computer. Requires JVM on your device.
+You can clone the Alura Converter repository. After opening in your favorite IDE, you must generate a key to use the api in Fastforex.io and change it in the Api.java file, the key that you will find in this code is only valid for 7 days. 
+Then convert it to a . class and then run it on your computer. 
+Requires JVM on your device.
 
 ## License
 
