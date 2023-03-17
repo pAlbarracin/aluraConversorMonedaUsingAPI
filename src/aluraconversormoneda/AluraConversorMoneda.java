@@ -31,9 +31,6 @@ import javafx.stage.Stage;
  */
 public class AluraConversorMoneda extends Application {
     
-    private Double rate;
-    private Double valorResultanteDeCambiar;
-    
     @Override
     public void start(Stage primaryStage) {
         
@@ -204,6 +201,7 @@ public class AluraConversorMoneda extends Application {
         launch(args);
     }
     
+    //Validación de monto para convertir ingresado, solo numeros y un punto decimal.
     public void SoloNumerosEnteros(javafx.scene.input.KeyEvent keyEvent, boolean hayPunto) {
         try{
             char key = keyEvent.getCharacter().charAt(0);
@@ -214,8 +212,6 @@ public class AluraConversorMoneda extends Application {
                     keyEvent.consume();
                 }
             }
-            
-
         } catch (Exception ex){ }
     }
     
