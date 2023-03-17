@@ -1,5 +1,5 @@
 # Alura Converter
-## A Currency converter
+## A Currency converter using API
 
 ![Screenshot Alura Converter](https://github.com/pAlbarracin/aluraConversorMoneda/blob/main/src/resources/screenshot1.jpg)
 
